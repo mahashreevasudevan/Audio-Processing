@@ -1,0 +1,13 @@
+yt-dlp
+soundfile
+librosa
+pyannote.audio==3.3.2
+torch
+torchaudio
+transformers
+datasets
+pandas
+numpy
+requests
+python-dotenv
+pytest
