@@ -17,10 +17,21 @@ SAMPLE_RATE = 16000
 CHANNELS = 1
 
 LICENCE_TIERS = {
-    "OPEN": ["creativecommons.org/licenses/by/", "creativecommons.org/licenses/by-sa/", "CC0", "cc0"],
-    "RESTRICTED": ["creativecommons.org/licenses/by-nc/", "creativecommons.org/licenses/by-nd/"],
-    "PROPRIETARY": ["youtube.com/t/terms"],
+    "OPEN": [
+        "creativecommons.org/licenses/by/",
+        "creativecommons.org/licenses/by-sa/",
+        "CC0",
+        "cc0",
+        "creative commons attribution",
+        "reuse allowed",
+    ],
+    "RESTRICTED": [
+        "creativecommons.org/licenses/by-nc/",
+        "creativecommons.org/licenses/by-nd/",
+    ],
+    "PROPRIETARY": [
+        "youtube.com/t/terms",
+    ],
 }
-
 EMOTION_CONFIDENCE_THRESHOLD = 0.6
 MIN_SEGMENT_DURATION = 1.0
