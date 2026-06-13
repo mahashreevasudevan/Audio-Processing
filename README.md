@@ -1,4 +1,4 @@
-# SpeechPipeline
+# Audio-Processing
 
 A Python pipeline that uses YouTube audio, figures out who said what and when, tags each speech segment with an emotion, and produces clean structured data ready for training expressive text-to-speech models. 
 It also has a data governance layer that checks every source's licence before touching it, so nothing proprietary quietly sneaks into the training set.
